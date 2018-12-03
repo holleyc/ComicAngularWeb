@@ -4,9 +4,9 @@ import {Component} from '@angular/core'
     selector: 'events-list',
     template: `
     <div>
-        <h1>Upcoming Angular Events</h1>
+        <h1>The Great Comic Collector</h1>
         <hr/>
-        <event-thumbnail [event]="event1"></event-thumbnail>
+        <event-thumbnail #thumbnail [event]="event1"></event-thumbnail>
     </div>
     `
 })
