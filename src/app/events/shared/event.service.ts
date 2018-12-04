@@ -5,6 +5,12 @@ export class EventService {
     getEvents(){
         return EVENTS
     }
+
+    // This will change the get comic by id
+    getEvent(id:number){
+      return EVENTS.find(event => event.id === id)
+    }
+      
 }
 
 const EVENTS = [

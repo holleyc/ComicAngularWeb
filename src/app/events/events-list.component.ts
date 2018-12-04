@@ -2,7 +2,6 @@ import { Component } from '@angular/core'
 import { EventService } from './shared/event.service'
 
 @Component({
-    selector: 'events-list',
     template: `
     <div>
         <h1>The Great Comic Collector</h1>
@@ -20,7 +19,7 @@ export class EventsListComponent {
     events:any[]
 
     constructor(private eventService: EventService){
-        
+
     }
 
     ngOnInit(){
