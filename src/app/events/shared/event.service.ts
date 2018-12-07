@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core'
+//import { IEvent, ISession } from './event.model'
  
 @Injectable()
 export class EventService {
@@ -11,6 +12,10 @@ export class EventService {
       return EVENTS.find(event => event.id === id)
     }
       
+    searchSessions(searchTerm:string) {
+      var term = searchTerm.toLocaleLowerCase();
+      //var results: ISession[] = [];
+    }
 }
 
 const EVENTS = [
