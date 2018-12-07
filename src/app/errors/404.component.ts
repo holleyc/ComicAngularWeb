@@ -2,7 +2,7 @@ import { Component } from '@angular/core'
 
 @Component ({
     template: `
-        <h1 class="errorMessage">404'd</h1>
+        <h1 class="errorMessage">404'd This is not the page you are looking for.</h1>
     `,
     styles: [`
         .errorMessage {

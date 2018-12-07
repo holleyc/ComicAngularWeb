@@ -1,6 +1,7 @@
 import { Component } from '@angular/core'
 import { Router } from '@angular/router'
 
+// This will need to be updated to add a new comic
 @Component({
     template:`
     <h1>Add Comic</h1>
@@ -14,6 +15,7 @@ import { Router } from '@angular/router'
     </div>
     `
 })
+// Change this from event to comic
 export class CreateEventComponent{
     constructor(private router: Router){
 

@@ -21,11 +21,11 @@ export class EventService {
 const EVENTS = [
     {
         id: 1,
-        name: 'Angular Connect',
+        name: 'Hulk',
         date: '9/26/2036',
         time: '10:00 am',
         price: 599.99,
-        imageUrl: '/assets/images/angularconnect-shield.png',
+        imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/9/a0/59933ea5b5c2e/clean.jpg',
         location: {
           address: '1057 DT',
           city: 'London',
@@ -34,76 +34,58 @@ const EVENTS = [
         sessions: [
           {
             id: 1,
-            name: "Using Angular 4 Pipes",
-            presenter: "Peter Bacon Darwin",
+            name: "",
+            presenter: "",
             duration: 1,
-            level: "Intermediate",
-            abstract: `Learn all about the new pipes in Angular 4, both 
-            how to write them, and how to get the new AI CLI to write 
-            them for you. Given by the famous PBD, president of Angular 
-            University (formerly Oxford University)`,
+            level: "",
+            abstract: ``,
             voters: ['bradgreen', 'igorminar', 'martinfowler']
           },
           {
             id: 2,
-            name: "Getting the most out of your dev team",
-            presenter: "Jeff Cross",
+            name: "",
+            presenter: "",
             duration: 1,
             level: "Intermediate",
-            abstract: `We all know that our dev teams work hard, but with 
-            the right management they can be even more productive, without 
-            overworking them. In this session I'll show you how to get the 
-            best results from the talent you already have on staff.`,
+            abstract: ``,
             voters: ['johnpapa', 'bradgreen', 'igorminar', 'martinfowler']
           },
           {
             id: 3,
-            name: "Angular 4 Performance Metrics",
-            presenter: "Rob Wormald",
+            name: "",
+            presenter: "",
             duration: 2,
             level: "Advanced",
-            abstract: `Angular 4 Performance is hot. In this session, we'll see 
-            how Angular gets such great performance by preloading data on 
-            your users devices before they even hit your site using the 
-            new predictive algorithms and thought reading software 
-            built into Angular 4.`,
+            abstract: ``,
             voters: []
           },
           {
             id: 4,
-            name: "Angular 5 Look Ahead",
-            presenter: "Brad Green",
+            name: "",
+            presenter: "",
             duration: 2,
             level: "Advanced",
-            abstract: `Even though Angular 5 is still 6 years away, we all want 
-            to know all about it so that we can spend endless hours in meetings 
-            debating if we should use Angular 4 or not. This talk will look at 
-            Angular 6 even though no code has yet been written for it. We'll 
-            look at what it might do, and how to convince your manager to 
-            hold off on any new apps until it's released`,
+            abstract: ``,
             voters: []
           },
           {
             id: 5,
-            name: "Basics of Angular 4",
-            presenter: "John Papa",
+            name: "",
+            presenter: "",
             duration: 2,
             level: "Beginner",
-            abstract: `It's time to learn the basics of Angular 4. This talk 
-            will give you everything you need to know about Angular 4 to 
-            get started with it today and be building UI's for your self 
-            driving cars and butler-bots in no time.`,
+            abstract: ``,
             voters: ['bradgreen', 'igorminar']
           }
         ]
       },
       {
         id: 2,
-        name: 'ng-nl',
+        name: 'Captain America Comics (1941) #3',
         date: '4/15/2037',
         time: '9:00 am',
         price: 950.00,
-        imageUrl: '/assets/images/ng-nl.png',
+        imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/9/80/579a6a3e51a8c/detail.jpg',
         location: {
           address: 'The NG-NL Convention Center & Scuba Shop',
           city: 'Amsterdam',
@@ -159,11 +141,11 @@ const EVENTS = [
       },
       {
         id: 3,
-        name: 'ng-conf 2037',
+        name: 'Black Panther (2005) #37',
         date: '5/4/2037',
         time: '9:00 am',
         price: 759.00,
-        imageUrl: '/assets/images/ng-conf.png',
+        imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/2/03/57470b306b427/clean.jpg',
         location: {
           address: 'The Palatial America Hotel',
           city: 'Salt Lake City',
@@ -241,11 +223,11 @@ const EVENTS = [
       },
       {
         id: 4,
-        name: 'UN Angular Summit',
+        name: 'Merry X-Men Holiday Special (2018) #1',
         date: '6/10/2037',
         time: '8:00 am',
         price: 800.00,
-        imageUrl: '/assets/images/basic-shield.png',
+        imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/9/00/5bff0b942e141/clean.jpg',
         location: {
           address: 'The UN Angular Center',
           city: 'New York',
@@ -290,11 +272,11 @@ const EVENTS = [
       },
       {
         id: 5,
-        name: 'ng-vegas',
+        name: 'X-Men: The Exterminated (2018) #1',
         date: '2/10/2037',
         time: '9:00 am',
         price: 400.00,
-        imageUrl: '/assets/images/ng-vegas.png',
+        imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/2/f0/5bff09afef56e/clean.jpg',
         location: {
           address: 'The Excalibur',
           city: 'Las Vegas',

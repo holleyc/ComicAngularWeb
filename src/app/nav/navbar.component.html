@@ -1,7 +1,9 @@
+<!-- This is the navbar html -->
 <div class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" >ngEvents</a>
+        <!-- This might change to an image -->
+        <a class="navbar-brand" >DemoSite</a>
       </div>
   
       <div class="collapse navbar-collapse">
@@ -12,12 +14,13 @@
           <li><a [routerLink]="['/events/new']">Add Comic</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
-              Events
+              Comics
               <span class="caret"></span>
             </a>
+            <!-- This might get removed -->
             <ul class="dropdown-menu">
               <li >
-                <a href="">Angular Connect</a>
+                <a href="">Update from Marvel site</a>
               </li>
             </ul>
           </li>
@@ -25,10 +28,12 @@
         <div class="navbar-header navbar-right">
           <ul class="nav navbar-nav">
             <li>
+              <!-- This will be the use login - This is the second requirement  -->
               <a>Welcome John</a>
             </li>
           </ul>
         </div>
+        <!-- This is the search form box -->
         <form id="searchForm" (ngSubmit)="searchSessions(searchTerm)" class="navbar-form navbar-right"  >
           <div class="form-group">
             <input name="searchTerm" type="text" class="form-control" placeholder="Search Comics" >
