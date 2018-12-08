@@ -7,13 +7,6 @@ import {Component, Input, Output, EventEmitter} from '@angular/core'
         <img data-image-link="" class="event-image col-md-2" src="{{event.imageUrl}}" alt="GI Joe">
         <h2>{{event?.name}}</h2>
         <div>Date: {{event?.date}}</div>
-        <div [class.green]="event?.time === '8:00 am'" [ngSwitch]="event?.time">
-            Time: {{event?.time}}
-            <span *ngSwitchCase="'8:00 am'">(Early Start)</span>
-            <span *ngSwitchCase="'10:00 am'">(Late Start)</span>
-            <span *ngSwitchDefault>(Normal Start)</span>
-
-        </div>
         <div>Price: \${{event?.price}}</div>
         <div *ngIf="event?.location">
             <span>Location: {{event?.location.address}}</span>
