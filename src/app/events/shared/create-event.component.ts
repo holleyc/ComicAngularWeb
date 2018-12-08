@@ -7,7 +7,7 @@ import { Router } from '@angular/router'
     <h1>Add Comic</h1>
     <hr>
     <div class="col-md-6">
-        <h3>[Create Event Form will go here]</h3>
+        <h3>[Add new comic form will go here]</h3>
         <br/>
         <br/>
         <button type="submit" class="btn btn-primary">Save</button>
